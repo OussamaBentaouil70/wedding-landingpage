@@ -1,0 +1,251 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "process": "Process",
+    "contact": "Contact",
+    "inquire": "Inquire Now"
+  },
+  "hero": {
+    "tagline": "Exquisite Celebrations in Morocco",
+    "title_part1": "Crafting Your",
+    "title_part2": "Marrakech",
+    "title_part3": "Dream",
+    "subtitle": "From intimate riads to majestic desert palaces, we curate cinematic wedding experiences that blend Moroccan heritage with modern luxury.",
+    "form": {
+      "title": "Begin Your Journey",
+      "name": "Full Name",
+      "email": "Email Address",
+      "date": "Wedding Date",
+      "guests": "Number of Guests",
+      "type": "Wedding Type",
+      "button": "Request a Consultation",
+      "disclaimer": "Private & Confidential • Response within 24 hours"
+    }
+  },
+  "about": {
+    "tagline": "Our Philosophy",
+    "title_part1": "Where Moroccan Heritage",
+    "title_part2": "Meets Modern Elegance",
+    "p1": "Founded in the heart of the Red City, Kech Weddings was born from a passion for storytelling and the timeless beauty of Morocco. We believe that every wedding is a unique masterpiece, deserving of meticulous attention and a touch of magic.",
+    "p2": "Our team of local experts and international designers work in harmony to transform your vision into an immersive reality. We don't just plan events; we create emotional journeys that resonate for a lifetime.",
+    "years": "Years of Excellence",
+    "planned": "Weddings Planned",
+    "venues": "Venue Partners",
+    "bespoke": "Bespoke Design",
+    "button": "Learn More About Us"
+  },
+  "promises": {
+    "tagline": "Our Commitment",
+    "title": "Signature Promises",
+    "subtitle": "We uphold the highest standards of luxury and authenticity in every event we produce.",
+    "items": {
+      "venues": {
+        "title": "Exclusive Venues",
+        "description": "Access to Marrakech's most hidden gems, from private desert oases to historic riads."
+      },
+      "design": {
+        "title": "Bespoke Design",
+        "description": "Every detail is custom-tailored to reflect your personal style and love story."
+      },
+      "storytelling": {
+        "title": "Emotional Storytelling",
+        "description": "We focus on the moments that matter, creating a cinematic flow for your celebration."
+      },
+      "execution": {
+        "title": "Seamless Execution",
+        "description": "Our on-site coordination ensures you remain fully present in every moment."
+      }
+    }
+  },
+  "process": {
+    "tagline": "The Journey",
+    "title_part1": "Our Planning",
+    "title_part2": "Process",
+    "subtitle": "A seamless experience from the first inquiry to the final dance. We handle the complexities so you can enjoy the magic.",
+    "steps": {
+      "step1": {
+        "title": "Discovery Call",
+        "description": "We begin with an intimate conversation to understand your vision, values, and the atmosphere you wish to create."
+      },
+      "step2": {
+        "title": "Concept & Venue",
+        "description": "Our team presents curated venue options and a bespoke design concept that aligns with your aesthetic."
+      },
+      "step3": {
+        "title": "Curation",
+        "description": "We hand-select the finest vendors, from floral artists to cinematic photographers, ensuring a cohesive team."
+      },
+      "step4": {
+        "title": "The Celebration",
+        "description": "Our on-site coordination team manages every detail, allowing you to be fully present in your love story."
+      }
+    }
+  },
+  "testimonials": {
+    "items": [
+      {
+        "text": "Kech Weddings transformed our vision into a reality that exceeded our wildest dreams. The attention to detail and the local expertise they provided made our Marrakech wedding truly unforgettable.",
+        "author": "Elena & Marc",
+        "location": "London, UK"
+      },
+      {
+        "text": "Planning a destination wedding can be stressful, but the team made it feel effortless. They found us the most incredible hidden riad that our guests are still talking about months later.",
+        "author": "Sophia & David",
+        "location": "New York, USA"
+      },
+      {
+        "text": "The most cinematic experience of our lives. From the desert sunset ceremony to the fire dancers at night, every moment was perfectly choreographed and deeply emotional.",
+        "author": "Isabella & Julian",
+        "location": "Paris, France"
+      }
+    ]
+  },
+  "cta": {
+    "title_part1": "Ready to Start Your",
+    "title_part2": "Moroccan Story?",
+    "subtitle": "Limited availability for 2026 & 2027. Contact us today to begin curating your bespoke celebration in Marrakech.",
+    "button": "Check Availability"
+  },
+  "weddings_preview": {
+    "tagline": "Portfolio",
+    "title_part1": "Recent",
+    "title_part2": "Love Stories",
+    "button": "View All Weddings",
+    "items": {
+      "desert": {
+        "title": "Desert Oasis",
+        "location": "Agafay Desert"
+      },
+      "riad": {
+        "title": "Riad Romance",
+        "location": "Medina, Marrakech"
+      },
+      "palace": {
+        "title": "Palace Grandeur",
+        "location": "Palmeral District"
+      },
+      "atlas": {
+        "title": "Atlas Sunset",
+        "location": "Ourika Valley"
+      }
+    }
+  },
+  "footer": {
+    "description": "The premier luxury wedding planning agency in Marrakech. We specialize in creating bespoke, cinematic celebrations that honor tradition while embracing modern elegance.",
+    "quick_links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "© 2026 Kech Weddings. All Rights Reserved.",
+    "designed": "Designed with passion in Marrakech"
+  },
+  "wedding_types": {
+    "title": "Wedding Experiences",
+    "tagline": "Our Offerings",
+    "subtitle": "Discover the diverse settings we offer for your extraordinary celebration in Morocco.",
+    "explore": "Explore Experience →",
+    "options": {
+      "desert_agafay": "Desert Wedding in Agafay",
+      "riad": "Riad Wedding",
+      "garden": "Garden Wedding",
+      "villas": "Private Villas & Estates",
+      "camps": "Desert Camps",
+      "beach": "Beachfront Venues"
+    },
+    "items": {
+      "desert_agafay": {
+        "title": "Desert Wedding in Agafay",
+        "description": "An ethereal celebration under the vast Moroccan sky. The Agafay desert provides a lunar landscape that transforms into a golden paradise at sunset.",
+        "features": ["Private luxury desert camp", "Traditional Berber music & fire shows", "Starlit dinner under the dunes"],
+        "experience": "A raw, powerful connection with nature elevated by five-star hospitality."
+      },
+      "riad": {
+        "title": "Riad Wedding",
+        "description": "Intimate and historic, a Riad wedding captures the soul of the Medina. Hidden courtyards, intricate tilework, and the scent of orange blossoms.",
+        "features": ["Exclusive Riad buyout", "Rooftop ceremonies with Medina views", "Authentic Moroccan gastronomy"],
+        "experience": "An intimate sanctuary of peace and beauty in the heart of the bustling city."
+      },
+      "garden": {
+        "title": "Garden Wedding",
+        "description": "Lush greenery and blooming roses in Marrakech's most prestigious gardens. A romantic setting that feels like a living fairytale.",
+        "features": ["Historic garden estates", "Floral-focused design", "Outdoor cocktail receptions"],
+        "experience": "A timeless, romantic atmosphere surrounded by nature's finest work."
+      },
+      "villas": {
+        "title": "Private Villas & Estates",
+        "description": "A private residence feel with elevated hospitality — space for multi-day hosting, poolside gatherings, and relaxed luxury.",
+        "features": ["Multi-day wedding weekends", "On-site accommodation for guests", "Flexible layouts for ceremony + reception"],
+        "experience": "The ultimate in privacy and personalization for your closest circle."
+      },
+      "camps": {
+        "title": "Desert Camps",
+        "description": "Immersive desert living with all the comforts of a luxury hotel. Perfect for adventurous couples seeking an authentic yet refined experience.",
+        "features": ["Glamping in luxury tents", "Camel treks for guests", "Traditional tea ceremonies"],
+        "experience": "A journey into the heart of Moroccan tradition and nomadic spirit."
+      },
+      "beach": {
+        "title": "Beachfront Venues",
+        "description": "Where the Atlantic breeze meets Moroccan charm. Our coastal venues offer a refreshing alternative with stunning sunset views.",
+        "features": ["Oceanfront ceremonies", "Seafood-focused menus", "Coastal chic design aesthetic"],
+        "experience": "A breezy, sophisticated celebration by the rhythmic waves of the ocean."
+      }
+    },
+    "modal": {
+      "tagline": "Venue Experience",
+      "planning": "Start Planning →",
+      "close": "Close"
+    }
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "tagline": "Visual Storytelling",
+    "subtitle": "A glimpse into the cinematic celebrations we've curated across the most breathtaking landscapes of Morocco.",
+    "items": {
+      "riad": {
+        "title": "Riad Romance",
+        "category": "Venue"
+      },
+      "desert": {
+        "title": "Desert Dream",
+        "category": "Agafay"
+      },
+      "garden": {
+        "title": "Garden Gala",
+        "category": "Outdoor"
+      },
+      "details": {
+        "title": "Elegant Details",
+        "category": "Decor"
+      },
+      "nomadic": {
+        "title": "Nomadic Spirit",
+        "category": "Culture"
+      },
+      "coastal": {
+        "title": "Coastal Chic",
+        "category": "Beach"
+      }
+    }
+  },
+  "contact": {
+    "tagline": "Contact Us",
+    "title_part1": "Let's Create Something",
+    "title_part2": "Extraordinary",
+    "subtitle": "Whether you have a clear vision or need inspiration, we are here to guide you through every step of the journey.",
+    "email_label": "Email Us",
+    "phone_label": "Call Us",
+    "visit_label": "Visit Us",
+    "form": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email Address",
+      "type": "Wedding Type",
+      "message": "Your Message",
+      "button": "Send Message"
+    }
+  }
+}

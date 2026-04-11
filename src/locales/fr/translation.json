@@ -1,0 +1,251 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "services": "Services",
+    "gallery": "Galerie",
+    "process": "Processus",
+    "contact": "Contact",
+    "inquire": "Demander un Devis"
+  },
+  "hero": {
+    "tagline": "Célébrations Exquises au Maroc",
+    "title_part1": "Créez Votre",
+    "title_part2": "Rêve à",
+    "title_part3": "Marrakech",
+    "subtitle": "Des riads intimistes aux palais majestueux du désert, nous organisons des expériences de mariage cinématographiques mêlant héritage marocain et luxe moderne.",
+    "form": {
+      "title": "Commencez Votre Voyage",
+      "name": "Nom Complet",
+      "email": "Adresse E-mail",
+      "date": "Date du Mariage",
+      "guests": "Nombre d'Invités",
+      "type": "Type de Mariage",
+      "button": "Demander une Consultation",
+      "disclaimer": "Privé & Confidentiel • Réponse sous 24 heures"
+    }
+  },
+  "about": {
+    "tagline": "Notre Philosophie",
+    "title_part1": "Où l'Héritage Marocain",
+    "title_part2": "Rencontre l'Élégance Moderne",
+    "p1": "Fondée au cœur de la Ville Rouge, Kech Weddings est née d'une passion pour la narration et la beauté intemporelle du Maroc. Nous croyons que chaque mariage est un chef-d'œuvre unique, méritant une attention méticuleuse et une touche de magie.",
+    "p2": "Notre équipe d'experts locaux et de designers internationaux travaille en harmonie pour transformer votre vision en une réalité immersive. Nous ne planifions pas seulement des événements ; nous créons des voyages émotionnels qui résonnent toute une vie.",
+    "years": "Années d'Excellence",
+    "planned": "Mariages Planifiés",
+    "venues": "Lieux Partenaires",
+    "bespoke": "Design Sur Mesure",
+    "button": "En Savoir Plus Sur Nous"
+  },
+  "promises": {
+    "tagline": "Notre Engagement",
+    "title": "Promesses Signature",
+    "subtitle": "Nous respectons les normes les plus élevées de luxe et d'authenticité dans chaque événement que nous produisons.",
+    "items": {
+      "venues": {
+        "title": "Lieux Exclusifs",
+        "description": "Accès aux joyaux les plus cachés de Marrakech, des oasis de désert privées aux riads historiques."
+      },
+      "design": {
+        "title": "Design Sur Mesure",
+        "description": "Chaque détail est personnalisé pour refléter votre style personnel et votre histoire d'amour."
+      },
+      "storytelling": {
+        "title": "Narration Émotionnelle",
+        "description": "Nous nous concentrons sur les moments qui comptent, créant un flux cinématographique pour votre célébration."
+      },
+      "execution": {
+        "title": "Exécution Sans Faille",
+        "description": "Notre coordination sur place garantit que vous restez pleinement présent à chaque instant."
+      }
+    }
+  },
+  "process": {
+    "tagline": "Le Voyage",
+    "title_part1": "Notre Processus",
+    "title_part2": "de Planification",
+    "subtitle": "Une expérience fluide de la première demande à la dernière danse. Nous gérons les complexités pour que vous puissiez profiter de la magie.",
+    "steps": {
+      "step1": {
+        "title": "Appel de Découverte",
+        "description": "Nous commençons par une conversation intime pour comprendre votre vision, vos valeurs et l'atmosphère que vous souhaitez créer."
+      },
+      "step2": {
+        "title": "Concept & Lieu",
+        "description": "Notre équipe présente des options de lieux sélectionnés et un concept de design sur mesure qui s'aligne sur votre esthétique."
+      },
+      "step3": {
+        "title": "Curation",
+        "description": "Nous sélectionnons à la main les meilleurs prestataires, des artistes floraux aux photographes cinématographiques, assurant une équipe cohérente."
+      },
+      "step4": {
+        "title": "La Célébration",
+        "description": "Notre équipe de coordination sur place gère chaque détail, vous permettant d'être pleinement présent dans votre histoire d'amour."
+      }
+    }
+  },
+  "testimonials": {
+    "items": [
+      {
+        "text": "Kech Weddings a transformé notre vision en une réalité qui a dépassé nos rêves les plus fous. L'attention aux détails et l'expertise locale qu'ils ont fournie ont rendu notre mariage à Marrakech vraiment inoubliable.",
+        "author": "Elena & Marc",
+        "location": "Londres, Royaume-Uni"
+      },
+      {
+        "text": "Planifier un mariage à destination peut être stressant, mais l'équipe a rendu cela sans effort. Ils nous ont trouvé le riad caché le plus incroyable dont nos invités parlent encore des mois plus tard.",
+        "author": "Sophia & David",
+        "location": "New York, États-Unis"
+      },
+      {
+        "text": "L'expérience la plus cinématographique de nos vies. De la cérémonie au coucher du soleil dans le désert aux danseurs de feu la nuit, chaque moment était parfaitement chorégraphié et profondément émouvant.",
+        "author": "Isabella & Julian",
+        "location": "Paris, France"
+      }
+    ]
+  },
+  "cta": {
+    "title_part1": "Prêt à Commencer Votre",
+    "title_part2": "Histoire Marocaine ?",
+    "subtitle": "Disponibilité limitée pour 2026 & 2027. Contactez-nous dès aujourd'hui pour commencer à organiser votre célébration sur mesure à Marrakech.",
+    "button": "Vérifier la Disponibilité"
+  },
+  "weddings_preview": {
+    "tagline": "Portfolio",
+    "title_part1": "Histoires d'Amour",
+    "title_part2": "Récentes",
+    "button": "Voir Tous les Mariages",
+    "items": {
+      "desert": {
+        "title": "Oasis du Désert",
+        "location": "Désert d'Agafay"
+      },
+      "riad": {
+        "title": "Romance au Riad",
+        "location": "Médina, Marrakech"
+      },
+      "palace": {
+        "title": "Grandeur de Palais",
+        "location": "Quartier de la Palmeraie"
+      },
+      "atlas": {
+        "title": "Coucher de Soleil sur l'Atlas",
+        "location": "Vallée de l'Ourika"
+      }
+    }
+  },
+  "footer": {
+    "description": "La première agence de planification de mariages de luxe à Marrakech. Nous nous spécialisons dans la création de célébrations sur mesure et cinématographiques qui honorent la tradition tout en embrassant l'élégance moderne.",
+    "quick_links": "Liens Rapides",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Politique de Cookies",
+    "rights": "© 2026 Kech Weddings. Tous droits réservés.",
+    "designed": "Conçu avec passion à Marrakech"
+  },
+  "wedding_types": {
+    "title": "Expériences de Mariage",
+    "tagline": "Nos Offres",
+    "subtitle": "Découvrez les divers cadres que nous proposons pour votre célébration extraordinaire au Maroc.",
+    "explore": "Explorer l'Expérience →",
+    "options": {
+      "desert_agafay": "Mariage dans le Désert d'Agafay",
+      "riad": "Mariage en Riad",
+      "garden": "Mariage en Jardin",
+      "villas": "Villas Privées & Domaines",
+      "camps": "Camps de Désert",
+      "beach": "Lieux en Bord de Mer"
+    },
+    "items": {
+      "desert_agafay": {
+        "title": "Mariage dans le Désert d'Agafay",
+        "description": "Une célébration éthérée sous le vaste ciel marocain. Le désert d'Agafay offre un paysage lunaire qui se transforme en un paradis doré au coucher du soleil.",
+        "features": ["Camp de désert de luxe privé", "Musique berbère traditionnelle & spectacles de feu", "Dîner étoilé sous les dunes"],
+        "experience": "Une connexion brute et puissante avec la nature, élevée par une hospitalité cinq étoiles."
+      },
+      "riad": {
+        "title": "Mariage en Riad",
+        "description": "Intime et historique, un mariage en Riad capture l'âme de la Médina. Cours cachées, carrelage complexe et parfum de fleurs d'oranger.",
+        "features": ["Rachat exclusif de Riad", "Cérémonies sur le toit avec vue sur la Médina", "Gastronomie marocaine authentique"],
+        "experience": "Un sanctuaire intime de paix et de beauté au cœur de la ville animée."
+      },
+      "garden": {
+        "title": "Mariage en Jardin",
+        "description": "Verdure luxuriante et roses en fleurs dans les jardins les plus prestigieux de Marrakech. Un cadre romantique qui ressemble à un conte de fées vivant.",
+        "features": ["Domaines de jardins historiques", "Design axé sur les fleurs", "Réceptions cocktails en plein air"],
+        "experience": "Une atmosphère intemporelle et romantique entourée du meilleur de la nature."
+      },
+      "villas": {
+        "title": "Villas Privées & Domaines",
+        "description": "Une sensation de résidence privée avec une hospitalité élevée — espace pour l'accueil sur plusieurs jours, rassemblements au bord de la piscine et luxe décontracté.",
+        "features": ["Week-ends de mariage sur plusieurs jours", "Hébergement sur place pour les invités", "Aménagements flexibles pour cérémonie + réception"],
+        "experience": "Le summum de l'intimité et de la personnalisation pour votre cercle le plus proche."
+      },
+      "camps": {
+        "title": "Camps de Désert",
+        "description": "Vie immersive dans le désert avec tout le confort d'un hôtel de luxe. Parfait pour les couples aventureux à la recherche d'une expérience authentique mais raffinée.",
+        "features": ["Glamping dans des tentes de luxe", "Randonnées à dos de chameau pour les invités", "Cérémonies de thé traditionnelles"],
+        "experience": "Un voyage au cœur de la tradition marocaine et de l'esprit nomade."
+      },
+      "beach": {
+        "title": "Lieux en Bord de Mer",
+        "description": "Où la brise de l'Atlantique rencontre le charme marocain. Nos lieux côtiers offrent une alternative rafraîchissante avec des vues imprenables sur le coucher du soleil.",
+        "features": ["Cérémonies face à l'océan", "Menus axés sur les fruits de mer", "Esthétique de design chic côtier"],
+        "experience": "Une célébration aérée et sophistiquée au rythme des vagues de l'océan."
+      }
+    },
+    "modal": {
+      "tagline": "Expérience du Lieu",
+      "planning": "Commencer la Planification →",
+      "close": "Fermer"
+    }
+  },
+  "gallery": {
+    "title": "Notre Galerie",
+    "tagline": "Narration Visuelle",
+    "subtitle": "Un aperçu des célébrations cinématographiques que nous avons organisées à travers les paysages les plus époustouflants du Maroc.",
+    "items": {
+      "riad": {
+        "title": "Romance au Riad",
+        "category": "Lieu"
+      },
+      "desert": {
+        "title": "Rêve du Désert",
+        "category": "Agafay"
+      },
+      "garden": {
+        "title": "Gala de Jardin",
+        "category": "Extérieur"
+      },
+      "details": {
+        "title": "Détails Élégants",
+        "category": "Décor"
+      },
+      "nomadic": {
+        "title": "Esprit Nomade",
+        "category": "Culture"
+      },
+      "coastal": {
+        "title": "Chic Côtier",
+        "category": "Plage"
+      }
+    }
+  },
+  "contact": {
+    "tagline": "Contactez-nous",
+    "title_part1": "Créons Quelque Chose",
+    "title_part2": "d'Extraordinaire",
+    "subtitle": "Que vous ayez une vision claire ou besoin d'inspiration, nous sommes là pour vous guider à chaque étape du voyage.",
+    "email_label": "Écrivez-nous",
+    "phone_label": "Appelez-nous",
+    "visit_label": "Visitez-nous",
+    "form": {
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "email": "Adresse E-mail",
+      "type": "Type de Mariage",
+      "message": "Votre Message",
+      "button": "Envoyer le Message"
+    }
+  }
+}
