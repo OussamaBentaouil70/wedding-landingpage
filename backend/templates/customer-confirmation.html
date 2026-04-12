@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f9f7f4;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #3a3a3a;
+        }
+
+        .wrapper {
+            max-width: 640px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4a3f35 0%, #6d5d52 100%);
+            color: #f5e6d3;
+            text-align: center;
+            padding: 44px 24px;
+        }
+
+        .logo {
+            margin: 0 auto 16px;
+            max-width: 170px;
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .content {
+            padding: 40px 32px;
+            text-align: center;
+        }
+
+        .content h2 {
+            margin: 0 0 16px;
+            color: #4a3f35;
+            font-size: 28px;
+            font-weight: 300;
+        }
+
+        .content p {
+            margin: 0 0 14px;
+            line-height: 1.8;
+            color: #5a5a5a;
+            font-size: 16px;
+        }
+
+        .note {
+            margin: 28px auto 0;
+            max-width: 420px;
+            background: #f5e6d3;
+            border-left: 4px solid #c9a876;
+            padding: 18px 20px;
+            border-radius: 10px;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .footer {
+            padding: 24px 32px 36px;
+            text-align: center;
+            color: #8a8a8a;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 24px;">
+        <div class="wrapper">
+            <div class="header">
+                <img class="logo" src="https://i.postimg.cc/VkpPZDCv/logo.png" alt="joodevent" />
+                <h1>joodevent</h1>
+            </div>
+            <div class="content">
+                <h2>Thank you, {firstName}.</h2>
+                <p>We have received your request and our team will review it shortly.</p>
+                <p>We appreciate your interest in creating your Moroccan wedding with us.</p>
+
+                <div class="note">
+                    This is a confirmation message to let you know your inquiry has been received successfully.
+                </div>
+            </div>
+            <div class="footer">
+                joodevent • Marrakech, Morocco<br />
+                Submitted on {timestamp}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

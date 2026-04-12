@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
+import logo from "../assets/Images/logo.png";
 
 function LanguageSwitcher({ scrolled, isMobile = false }: { scrolled: boolean; isMobile?: boolean }) {
   const [isLangOpen, setIsLangOpen] = useState(false);
@@ -79,7 +80,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: t("nav.home"), href: "#" },
+    { name: t("nav.home"), href: "/" },
     { name: t("nav.about"), href: "#about" },
     { name: t("nav.services"), href: "#services" },
     { name: t("nav.gallery"), href: "#gallery" },
@@ -97,11 +98,15 @@ export default function Navbar() {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          className="flex items-center gap-2"
+          className="flex items-center"
         >
-          <span className="font-serif text-2xl tracking-widest uppercase font-light text-charcoal">
-            Kech<span className="text-gold font-medium">Weddings</span>
-          </span>
+          <a href="/" aria-label="Kech Weddings Home" className="block">
+            <img
+              src={logo}
+              alt="Kech Weddings"
+              className={`h-14 md:h-16 w-auto object-contain transition-all duration-500 ${scrolled ? "brightness-0" : ""}`}
+            />
+          </a>
         </motion.div>
 
         {/* Desktop Nav */}

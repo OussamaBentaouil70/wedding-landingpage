@@ -1,20 +1,21 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
+import ctaBackground from "../assets/Images/pexels-bikareantalya-32737658.jpg";
+
 export default function CTA() {
   const { t } = useTranslation();
 
   return (
     <section className="py-24 bg-ivory">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="relative h-[500px] rounded-[3rem] overflow-hidden flex items-center justify-center text-center px-6">
+        <div className="relative h-125 rounded-[3rem] overflow-hidden flex items-center justify-center text-center px-6">
           <img
-            src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
+            src={ctaBackground}
             alt="Marrakech Wedding Background"
-            className="absolute inset-0 w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+            className="absolute inset-0 w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-charcoal/60 backdrop-blur-[2px]" />
+          <div className="absolute inset-0 bg-charcoal/60" />
           
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}

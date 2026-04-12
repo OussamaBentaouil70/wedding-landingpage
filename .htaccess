@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Keep real files and directories accessible (assets, PHP endpoints, etc.).
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # SPA fallback for client-side routes like /thank-you.
+    RewriteRule ^ index.html [L]
+</IfModule>

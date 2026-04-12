@@ -21,6 +21,8 @@
       "date": "Date du Mariage",
       "guests": "Nombre d'Invités",
       "type": "Type de Mariage",
+      "message": "Message",
+      "message_placeholder": "Parlez-nous de votre vision",
       "button": "Demander une Consultation",
       "disclaimer": "Privé & Confidentiel • Réponse sous 24 heures"
     }

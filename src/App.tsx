@@ -16,8 +16,13 @@ import CTA from "./components/CTA";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
+import ThankYouPage from "./components/ThankYouPage";
 
 export default function App() {
+  if (window.location.pathname === "/thank-you") {
+    return <ThankYouPage />;
+  }
+
   return (
     <div className="min-h-screen bg-ivory selection:bg-gold selection:text-ivory">
       <Navbar />

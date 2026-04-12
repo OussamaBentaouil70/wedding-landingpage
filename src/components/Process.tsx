@@ -35,7 +35,7 @@ export default function Process() {
             <span className="text-xs uppercase tracking-[0.3em] text-sand font-bold mb-4 block text-gold">
               {t("process.tagline")}
             </span>
-            <h2 className="text-4xl md:text-5xl font-light mb-8 leading-tight text-ivory">
+            <h2 className="text-4xl md:text-5xl font-light mb-8 leading-tight text-white">
               {t("process.title_part1")} <br />
               <span className="italic">{t("process.title_part2")}</span>
             </h2>
@@ -59,7 +59,7 @@ export default function Process() {
                   {step.number}
                 </span>
                 <div>
-                  <h3 className="text-2xl font-serif mb-4 group-hover:text-gold transition-colors duration-500">
+                  <h3 className="text-2xl font-serif mb-4 text-white group-hover:text-gold transition-colors duration-500">
                     {step.title}
                   </h3>
                   <p className="text-ivory/60 font-light leading-relaxed max-w-lg">

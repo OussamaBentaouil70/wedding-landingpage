@@ -1,6 +1,8 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
+import aboutImage from "../assets/Images/pexels-aysenur-sahin-57769289-36966419.jpg";
+
 export default function About() {
   const { t } = useTranslation();
 
@@ -16,10 +18,9 @@ export default function About() {
         >
           <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop"
+              src={aboutImage}
               alt="Wedding Planner Marrakech"
               className="w-full h-full object-cover"
-              referrerPolicy="no-referrer"
             />
           </div>
           <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-sand rounded-2xl -z-10 hidden md:block" />

@@ -3,6 +3,13 @@ import { useState, useRef, useMemo } from "react";
 import { X, ZoomIn, ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
+import galleryImage1 from "../assets/Images/pexels-aysenur-sahin-57769289-36966419.jpg";
+import galleryImage2 from "../assets/Images/Destination-Wedding-Photographer-3-1536x1024-1.jpg";
+import galleryImage3 from "../assets/Images/pexels-mographe-15531226.jpg";
+import galleryImage4 from "../assets/Images/pexels-mographe-30374225.jpg";
+import galleryImage5 from "../assets/Images/pexels-voltaccess-48169519-7556738.jpg";
+import galleryImage6 from "../assets/Images/pexels-lilen-diaz-1025474869-36785663.jpg";
+
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<any | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -10,32 +17,32 @@ export default function Gallery() {
 
   const images = useMemo(() => [
     {
-      url: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop",
+      url: galleryImage1,
       title: t("gallery.items.riad.title"),
       category: t("gallery.items.riad.category")
     },
     {
-      url: "https://images.unsplash.com/photo-1546190255-451a91afc548?q=80&w=2070&auto=format&fit=crop",
+      url: galleryImage2,
       title: t("gallery.items.desert.title"),
       category: t("gallery.items.desert.category")
     },
     {
-      url: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+      url: galleryImage3,
       title: t("gallery.items.garden.title"),
       category: t("gallery.items.garden.category")
     },
     {
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop",
+      url: galleryImage4,
       title: t("gallery.items.details.title"),
       category: t("gallery.items.details.category")
     },
     {
-      url: "https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=2072&auto=format&fit=crop",
+      url: galleryImage5,
       title: t("gallery.items.nomadic.title"),
       category: t("gallery.items.nomadic.category")
     },
     {
-      url: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop",
+      url: galleryImage6,
       title: t("gallery.items.coastal.title"),
       category: t("gallery.items.coastal.category")
     }
@@ -91,7 +98,7 @@ export default function Gallery() {
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.8 }}
             onClick={() => setSelectedImage(image)}
-            className="relative flex-none w-[300px] md:w-[450px] aspect-[16/10] overflow-hidden rounded-2xl shadow-xl cursor-pointer snap-center group"
+            className="relative flex-none w-75 md:w-112.5 aspect-16/10 overflow-hidden rounded-2xl shadow-xl cursor-pointer snap-center group"
           >
             <img
               src={image.url}
@@ -117,7 +124,7 @@ export default function Gallery() {
       {/* Lightbox */}
       <AnimatePresence>
         {selectedImage && (
-          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-12">
+          <div className="fixed inset-0 z-100 flex items-center justify-center p-4 md:p-12">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

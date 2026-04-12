@@ -3,6 +3,13 @@ import { useState, useMemo } from "react";
 import { X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
+import weddingImage1 from "../assets/Images/Destination-Wedding-Photographer-3-1536x1024-1.jpg";
+import weddingImage2 from "../assets/Images/pexels-aysenur-sahin-57769289-36966419.jpg";
+import weddingImage3 from "../assets/Images/pexels-mographe-15531226.jpg";
+import weddingImage4 from "../assets/Images/pexels-mographe-30374225.jpg";
+import weddingImage5 from "../assets/Images/pexels-tomas-anunziata-129267-412055.jpg";
+import weddingImage6 from "../assets/Images/pexels-voltaccess-48169519-7556738.jpg";
+
 interface WeddingType {
   id: string;
   title: string;
@@ -20,7 +27,7 @@ export default function WeddingTypes() {
     {
       id: "desert_agafay",
       title: t("wedding_types.items.desert_agafay.title"),
-      image: "https://images.unsplash.com/photo-1546190255-451a91afc548?q=80&w=2070&auto=format&fit=crop",
+      image: weddingImage1,
       description: t("wedding_types.items.desert_agafay.description"),
       features: t("wedding_types.items.desert_agafay.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.desert_agafay.experience")
@@ -28,7 +35,7 @@ export default function WeddingTypes() {
     {
       id: "riad",
       title: t("wedding_types.items.riad.title"),
-      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop",
+      image: weddingImage2,
       description: t("wedding_types.items.riad.description"),
       features: t("wedding_types.items.riad.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.riad.experience")
@@ -36,7 +43,7 @@ export default function WeddingTypes() {
     {
       id: "garden",
       title: t("wedding_types.items.garden.title"),
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop",
+      image: weddingImage3,
       description: t("wedding_types.items.garden.description"),
       features: t("wedding_types.items.garden.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.garden.experience")
@@ -44,7 +51,7 @@ export default function WeddingTypes() {
     {
       id: "villas",
       title: t("wedding_types.items.villas.title"),
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop",
+      image: weddingImage4,
       description: t("wedding_types.items.villas.description"),
       features: t("wedding_types.items.villas.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.villas.experience")
@@ -52,7 +59,7 @@ export default function WeddingTypes() {
     {
       id: "camps",
       title: t("wedding_types.items.camps.title"),
-      image: "https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=2072&auto=format&fit=crop",
+      image: weddingImage5,
       description: t("wedding_types.items.camps.description"),
       features: t("wedding_types.items.camps.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.camps.experience")
@@ -60,7 +67,7 @@ export default function WeddingTypes() {
     {
       id: "beach",
       title: t("wedding_types.items.beach.title"),
-      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop",
+      image: weddingImage6,
       description: t("wedding_types.items.beach.description"),
       features: t("wedding_types.items.beach.features", { returnObjects: true }) as string[],
       experience: t("wedding_types.items.beach.experience")

@@ -6,3 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+vendor/
+composer.phar
+backend/logs/
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

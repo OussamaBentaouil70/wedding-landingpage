@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import logo from "../assets/Images/logo.png";
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -8,9 +9,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-12 mb-20">
           <div className="md:col-span-2">
-            <span className="font-serif text-3xl tracking-widest uppercase font-light text-ivory mb-6 block">
-              Kech<span className="text-gold font-medium">Weddings</span>
-            </span>
+            <a href="#" aria-label="Kech Weddings Home" className="inline-block mb-6">
+              <img
+                src={logo}
+                alt="Kech Weddings"
+                className="h-16 md:h-20 w-auto object-contain"
+              />
+            </a>
             <p className="max-w-sm font-light leading-relaxed">
               {t("footer.description")}
             </p>

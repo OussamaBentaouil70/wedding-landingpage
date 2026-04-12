@@ -1,6 +1,11 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 
+import previewImage1 from "../assets/Images/pexels-mographe-15531226.jpg";
+import previewImage2 from "../assets/Images/pexels-mographe-30374225.jpg";
+import previewImage3 from "../assets/Images/pexels-tomas-anunziata-129267-412055.jpg";
+import previewImage4 from "../assets/Images/pexels-voltaccess-48169519-7556738.jpg";
+
 export default function WeddingsPreview() {
   const { t } = useTranslation();
 
@@ -8,22 +13,22 @@ export default function WeddingsPreview() {
     {
       title: t("weddings_preview.items.desert.title"),
       location: t("weddings_preview.items.desert.location"),
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop"
+      image: previewImage1
     },
     {
       title: t("weddings_preview.items.riad.title"),
       location: t("weddings_preview.items.riad.location"),
-      image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+      image: previewImage2
     },
     {
       title: t("weddings_preview.items.palace.title"),
       location: t("weddings_preview.items.palace.location"),
-      image: "https://images.unsplash.com/photo-1510076857177-7470076d4098?q=80&w=2072&auto=format&fit=crop"
+      image: previewImage3
     },
     {
       title: t("weddings_preview.items.atlas.title"),
       location: t("weddings_preview.items.atlas.location"),
-      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop"
+      image: previewImage4
     }
   ];
 
@@ -52,7 +57,7 @@ export default function WeddingsPreview() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.8 }}
-              className="group relative aspect-[16/10] overflow-hidden rounded-2xl cursor-pointer"
+              className="group relative aspect-16/10 overflow-hidden rounded-2xl cursor-pointer"
             >
               <img
                 src={wedding.image}
@@ -60,7 +65,7 @@ export default function WeddingsPreview() {
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-linear-to-t from-charcoal/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="absolute bottom-0 left-0 p-10 text-ivory translate-y-10 group-hover:translate-y-0 transition-transform duration-500">
                 <p className="text-[10px] uppercase tracking-widest mb-2 opacity-70">{wedding.location}</p>
                 <h3 className="text-3xl font-serif">{wedding.title}</h3>

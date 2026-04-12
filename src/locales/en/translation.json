@@ -21,6 +21,8 @@
       "date": "Wedding Date",
       "guests": "Number of Guests",
       "type": "Wedding Type",
+      "message": "Message",
+      "message_placeholder": "Tell us about your vision",
       "button": "Request a Consultation",
       "disclaimer": "Private & Confidential • Response within 24 hours"
     }
