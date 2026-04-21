@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import { WEDDING_TYPE_OPTIONS } from "../constants/weddingTypes";
 
 interface FormData {
   firstName: string;
@@ -23,7 +24,7 @@ export default function ContactForm() {
     lastName: "",
     email: "",
     phone: "",
-    weddingType: "desert_agafay",
+    weddingType: "wedding_in_marrakech",
     message: "",
   });
 
@@ -122,7 +123,7 @@ export default function ContactForm() {
           lastName: "",
           email: "",
           phone: "",
-          weddingType: "desert_agafay",
+          weddingType: "wedding_in_marrakech",
           message: "",
         });
 
@@ -215,7 +216,7 @@ export default function ContactForm() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-white p-10 md:p-12 rounded-[2rem] shadow-xl border border-lavender"
+            className="bg-white p-10 md:p-12 rounded-4xl shadow-xl border border-lavender"
           >
             <form className="space-y-6" onSubmit={handleSubmit}>
               {/* Status Messages */}
@@ -295,12 +296,11 @@ export default function ContactForm() {
                   onChange={handleChange}
                   className="w-full bg-lavender/30 border border-lavender/50 rounded-xl px-4 py-3 focus:border-gold outline-none transition-all"
                 >
-                  <option value="desert_agafay">{t("wedding_types.options.desert_agafay")}</option>
-                  <option value="riad">{t("wedding_types.options.riad")}</option>
-                  <option value="garden">{t("wedding_types.options.garden")}</option>
-                  <option value="villas">{t("wedding_types.options.villas")}</option>
-                  <option value="camps">{t("wedding_types.options.camps")}</option>
-                  <option value="beach">{t("wedding_types.options.beach")}</option>
+                  {WEDDING_TYPE_OPTIONS.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
                 </select>
               </div>
               <div className="space-y-2">
