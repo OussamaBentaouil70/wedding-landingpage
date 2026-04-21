@@ -179,20 +179,34 @@ export default function WeddingSubpage({
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.08 }}
-                className="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-lavender/50"
+                className={`group relative rounded-3xl p-8 md:p-10 border transition-all duration-500 ${
+                  section.image
+                    ? "overflow-hidden bg-linear-to-br from-white via-ivory to-lavender/40 border-gold/40 shadow-[0_20px_55px_-30px_rgba(51,51,51,0.55)] hover:-translate-y-1 hover:shadow-[0_30px_70px_-35px_rgba(51,51,51,0.65)]"
+                    : "bg-white border-lavender/50 shadow-sm"
+                }`}
               >
                 {section.image && (
-                  <div className="mb-6 overflow-hidden rounded-2xl aspect-16/10">
+                  <div className="relative mb-7 overflow-hidden rounded-2xl aspect-16/10 ring-1 ring-gold/25 shadow-[0_20px_45px_-30px_rgba(0,0,0,0.65)]">
                     <img
                       src={section.image}
                       alt={section.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                       referrerPolicy="no-referrer"
                     />
+                    <div className="absolute inset-0 bg-linear-to-t from-charcoal/55 via-charcoal/10 to-transparent" />
+                    <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-charcoal/35 to-transparent" />
+                    <span className="absolute top-4 left-4 text-[10px] uppercase tracking-[0.24em] text-ivory/95 bg-charcoal/40 border border-ivory/30 px-3 py-1.5 rounded-full backdrop-blur-sm">
+                      Signature Venue
+                    </span>
                   </div>
                 )}
+                {section.image && (
+                  <div className="mb-4 h-px w-16 bg-linear-to-r from-gold to-transparent" />
+                )}
                 <p className="text-[10px] uppercase tracking-[0.3em] text-gold font-bold mb-4">{section.label}</p>
-                <h3 className="text-2xl md:text-3xl font-serif text-charcoal mb-4">{section.title}</h3>
+                <h3 className={`font-serif text-charcoal mb-4 ${section.image ? "text-[2rem] leading-tight" : "text-2xl md:text-3xl"}`}>
+                  {section.title}
+                </h3>
                 <p className="text-olive font-light leading-relaxed">{section.description}</p>
               </motion.article>
             ))}
